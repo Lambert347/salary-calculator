@@ -24,3 +24,11 @@ function addEmployee(){
     
     renderStudents();
 }
+
+function clearInputFields(){
+    $('#inFirstName').val('');
+    $('#inLastName').val('');
+    $('#inNumber').val('');
+    $('#inJobTitle').val('');
+    $('#inAnnualSalary').val('');
+}
