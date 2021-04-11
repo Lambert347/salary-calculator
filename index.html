@@ -11,22 +11,21 @@
     </head>
     <body>
         <header>
-            <h1>Salaray Calculator</h1>
+            <h1>Salary Calculator</h1>
         </header>
 
         <main>
-            <section>
+            <section id="employeeIn">
                 <h2>Add Employee Information</h2>
-                <div>
+                <div id="input">
                     <input id="inFirstName" type ="text" placeholder="Employee First Name">
                     <input id="inLastName" type="text" placeholder="Employee Last Name">
                     <input id="inNumber" type="number" placeholder="Employee Number">
                     <input id="inJobTitle" type="text" placeholder="Employee Job Title">
                     <input id="inAnnualSalary" type="number" placeholder="Employee Annual Salary">
-                </div>
-                <div>
                     <button id="submitButton">Submit</button>
                 </div>
+
             </section>
 
             <section>
@@ -38,6 +37,7 @@
                             <th>Number</th>
                             <th>Job Title</th>
                             <th>Annual Salary</th>
+                            <th>Delete?</th>
                         </tr>
                     </thead>
 
@@ -50,12 +50,11 @@
                             <td>Sample</td>
                         </tr>
                     </tbody>
-
-
                 </table>
+            </section>
 
-
-
+            <section id="expenses">
+                <h2>Total Monthly Expenses: $<span class="monthlyOut">CASHMONEY</span></h2>
             </section>
 
 

@@ -1,3 +1,46 @@
-#empTable {
-    margin: auto;
+body {
+    background-color: cadetblue;
+}
+
+#input{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+#employeeIn {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    background-color: linen;
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+table tr:nth-child(odd) td {
+    background-color: lightslategray;
+}
+
+td {
+    vertical-align: bottom;
+}
+
+#expenses {
+    text-align: center;
+    background-color: linen;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 10px;
+    border: 1px #DCDCDC;
+    border-radius: 10px;
+
 }
